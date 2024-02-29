@@ -1,7 +1,7 @@
 import './index.css'
 
 const PasswordItem = props => {
-  const {passwordDetails, deletePassword} = props
+  const {passwordDetails} = props
   const {id, website, username, password, search} = passwordDetails
   const initial = website ? website[0].toUpperCase() : ''
 
